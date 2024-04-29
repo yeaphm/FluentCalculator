@@ -15,10 +15,10 @@ Values in the calculator range from zero to ten and are represented by their res
 ## Example Usage
 
 ```csharp
-var result = calculator.One().Plus().Two().Plus().Three().Minus().One().Minus().Two().Minus().Four().Calculate();
+var result = calculator.one.plus.two.plus.three.minus.one.minus.two.minus.four;
 Console.WriteLine(result); // Output: -1
 
-result = calculator.One().Plus().Ten().Minus().Ten().Calculate();
+result = calculator.one.plus.ten - 10;
 Console.WriteLine(result); // Output: 1
 ```
 
